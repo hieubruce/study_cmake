@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.1)
+
+project(hello)
+
+set(PROJECT_LINK_LIBS libgreeting_enjavi.dll)
+link_directories(${PROJECT_BINARY_DIR}) # C:/Users/User/Desktop/hello/build
+
+include_directories(include)
+
+file(GLOB SOURCES "src/*.cpp")
+
+add_executable(app ${SOURCES})
+
+target_link_libraries(app ${PROJECT_LINK_LIBS})
+
+# add_library(greeting_enjavi ${SOURCES})
+
+# add_library(greeting_enjavi SHARED ${SOURCES})
+
+# cmake .. -G "MinGW Makefiles"
+
+# message(STATUS ${PROJECT_BINARY_DIR}) # C:/Users/User/Desktop/hello/build
+
+# message(STATUS ${PROJECT_SOURCE_DIR}/build) # C:/Users/User/Desktop/hello/build

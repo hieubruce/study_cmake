@@ -1,0 +1,3 @@
+C:/Users/User/Desktop/hello/build/CMakeFiles/app.dir
+C:/Users/User/Desktop/hello/build/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/hello/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/en.hpp
+iostream
+-
+
+../include/ja.hpp
+iostream
+-
+
+../include/vi.hpp
+iostream
+-
+
+C:/Users/User/Desktop/hello/src/en.cpp
+iostream
+-
+en.hpp
+C:/Users/User/Desktop/hello/src/en.hpp
+
+C:/Users/User/Desktop/hello/src/ja.cpp
+iostream
+-
+ja.hpp
+C:/Users/User/Desktop/hello/src/ja.hpp
+
+C:/Users/User/Desktop/hello/src/vi.cpp
+iostream
+-
+vi.hpp
+C:/Users/User/Desktop/hello/src/vi.hpp
+
